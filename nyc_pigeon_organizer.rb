@@ -42,7 +42,7 @@ def nyc_pigeon_organizer(data)
   end
   
   data[:lives]["Subway"].map do |pigeon|
-    new_hash[pigeon][:lives] = ["subway"]
+    new_hash[pigeon][:lives] = ["Subway"]
   end
 
   pp new_hash
