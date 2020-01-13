@@ -3,17 +3,17 @@ def nyc_pigeon_organizer(data)
  
   data[:color][:purple].map do |pigeon|
     if !new_hash[pigeon]
-      new_hash[pigeon] = {:color => "purple"}
+      new_hash[pigeon] = {:color => ["purple"]}
     else
-      new_hash[pigeon][:color] << "purple"
+      new_hash[pigeon][:color] << ["purple"]
     end
   end
   
   data[:color][:grey].map do |pigeon|
     if !new_hash[pigeon]
-      new_hash[pigeon] = {:color => "grey"}
+      new_hash[pigeon] = {:color => ["grey"]}
     else
-      new_hash[pigeon][:color] << "grey"
+      new_hash[pigeon][:color] << ["grey"]
     end
   end
   
