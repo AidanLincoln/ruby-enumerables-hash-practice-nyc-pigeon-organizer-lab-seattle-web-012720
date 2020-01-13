@@ -12,8 +12,9 @@ def nyc_pigeon_organizer(data)
         if !new_hash[name][color_gen_loc].include?(attribute)
           new_hash[name][color_gen_loc] << attribute.to_s
         end
-        new_hash
+        
       end
     end
   end
+  new_hash
 end
