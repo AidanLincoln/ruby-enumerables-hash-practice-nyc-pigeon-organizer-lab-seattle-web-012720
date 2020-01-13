@@ -2,19 +2,19 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
  
   data[:color][:purple].map do |pigeon|
-    new_hash[pigeon] << {:color => "purple"}
+    new_hash[pigeon] = {:color => "purple"}
   end
   
   data[:color][:grey].map do |pigeon|
-    new_hash[pigeon] << {:color => "grey"}
+    new_hash[pigeon] = {:color => "grey"}
   end
   
   data[:color][:white].map do |pigeon|
-    new_hash[pigeon] << {:color => "white"}
+    new_hash[pigeon] = {:color => "white"}
   end
   
   data[:color][:brown].map do |pigeon|
-    new_hash[pigeon] << {:color => "brown"}
+    new_hash[pigeon] = {:color => "brown"}
   end
 
   pp new_hash
