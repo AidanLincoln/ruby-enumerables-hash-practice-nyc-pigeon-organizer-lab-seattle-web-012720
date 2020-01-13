@@ -32,6 +32,8 @@ def nyc_pigeon_organizer(data)
       new_hash[pigeon][:color] << "brown"
     end
   end
+  
+  
 
   pp new_hash
 end
