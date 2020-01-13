@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     if !new_hash[pigeon]
       new_hash[pigeon] = {:color => ["purple"]}
     else
-      new_hash[pigeon][:color] << ["purple"]
+      new_hash[pigeon][:color] << "purple"
     end
   end
   
@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
     if !new_hash[pigeon]
       new_hash[pigeon] = {:color => ["grey"]}
     else
-      new_hash[pigeon][:color] << ["grey"]
+      new_hash[pigeon][:color] << "grey"
     end
   end
   
