@@ -1,4 +1,6 @@
 def nyc_pigeon_organizer(data)
   new_hash = {}
-  pp data[:color]
+  data[:color][:purple].map do |pigeon|
+    new_hash[pigeon] = 
+  end
 end
