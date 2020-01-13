@@ -41,7 +41,9 @@ def nyc_pigeon_organizer(data)
     new_hash[pigeon][:gender] = ["female"]
   end
   
-  data[:lives]
+  data[:lives]["Subway"].map do |pigeon|
+    new_hash[pigeon][:lives] = ["subway"]
+  end
 
   pp new_hash
 end
