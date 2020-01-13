@@ -33,7 +33,9 @@ def nyc_pigeon_organizer(data)
     end
   end
   
+  data[:gender][:male].map do |pigeon|
   
+end
 
   pp new_hash
 end
