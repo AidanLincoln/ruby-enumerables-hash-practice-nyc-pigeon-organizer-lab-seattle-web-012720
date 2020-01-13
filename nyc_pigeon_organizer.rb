@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     if !new_hash[pigeon]
       new_hash[pigeon] = {:color => "purple"}
     else
-      
+      new_hash[pigeon][:color] << "purple"
   end
   
   data[:color][:grey].map do |pigeon|
